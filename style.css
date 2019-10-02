@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.875em;
+  background-color: #DDD
+}
+
+.container {
+	display: grid;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+  	font-size: 1em;
+  }
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap');
+.header{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.header .logo a {
+	font-family: 'Sedgwick Ave Display', sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+.header .menu-icon {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 100%;
+	flex-grow: 1;
+	position: relative;
+}
+
+.header .menu-icon i {
+	color: blue;
+	position: relative;
+}
+
+.header .menu-icon .drop-menu {
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 200px;
+	top: 60px;
+	float: right;
+}
+
+.header .menu-icon .drop-menu::after{
+	content: " ";
+	position: absolute;
+	bottom: 100%;
+	border: 10px;
+	border-style: solid;
+	border-color: transparent transparent white transparent;
+	left: 90%;
+}
+.header .menu-icon .drop-menu a{
+	padding: 10px 0px;
+  	text-align: center;
+  	display: block;
+  	text-decoration: none;
+  	color: black;
+  	font-weight: bold;
+}
+.header .menu-icon .drop-menu a:hover{
+  	background-color: #e0e0e0;
+  	border-right: 2px solid blue;
+}
+
+.header .menu-desktop {
+	display: none;
+	margin-right: 50px;
+}
+
+.header .menu-desktop > ul{
+	display: block;
+	list-style: none;
+	line-height: 20px;
+	
+}
+
+.header .menu-desktop ul .link-btn{
+	display: inline-block;
+	text-align: center;
+	padding-right: 40px;
+}
+.header .menu-desktop ul .link-btn a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.header .menu-desktop ul .link-btn a:hover{
+	border-bottom: 2px solid blue;
+}
+
+@media only screen and (min-width: 600px) {
+  .header .menu-icon{
+  	display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .header .menu-desktop{
+  	display: flex;
+  	flex-direction: row-reverse;
+  	flex-grow: 1;
+  }
+}
+
+
+
+
+
+
