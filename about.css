@@ -1,0 +1,95 @@
+.about-me {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0a1f49;
+	color: #FFF;
+}
+
+.about-me .wrap-about {
+	margin: 80px 0px;
+	width: 70%;
+	padding: 5px;
+	border: 2px solid #FFF;
+	border-radius: 25px;
+	background-color: #0a1f49;
+	position: relative;
+}
+
+.about-me .wrap-about .about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 10px 0px 10px;
+}
+
+.about-me .wrap-about .wrap-content {
+	max-height: 150px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.about-me .wrap-about .wrap-content .content {
+	font-size: 1em;
+	text-indent: 1.5em;
+	line-height: 1.5em;
+}
+
+.about-me .wrap-about .avt {
+	position: absolute;
+	background-color: #FFF;
+	top: -50px;
+	left: -50px;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #FFF; 
+	border-radius: 50%;
+	background-image: url(./tranduchuynh.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: scale(1);
+	transition: all 0.2;
+}
+
+.about-me .wrap-about .avt .overlay {
+	background-color: rgba(0,0,0,0.1);
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.about-me .wrap-about .avt:hover {
+	transform: scale(1.2);
+	transition: all 0.2;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-me {
+  	height: 100vh;
+  }
+
+  .about-me .wrap-about {
+  	width: 80%;
+  }
+
+  .about-me .wrap-about .wrap-content {
+  	max-height: inherit;
+  	overflow-y: hidden;
+  }
+
+  .about-me .wrap-about .wrap-content .content {
+  	font-size: 1.5em;
+  }
+
+  .about-me .wrap-about .about .title {
+  	font-size: 1.8em;
+  }
+
+  .about-me .wrap-about .avt {
+  	width: 180px;
+	height: 180px;
+  }
+}
+

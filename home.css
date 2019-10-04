@@ -46,6 +46,7 @@
     border-radius: 50px;
     color: #40424a;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .home .overlay .fb-btn a {
@@ -56,7 +57,7 @@
 }
 
 .home .overlay .fb-btn:hover {
-	background-color: #0e416e;
+	background-color: #082f60;
 }
 
 @media only screen and (min-width: 600px) {
