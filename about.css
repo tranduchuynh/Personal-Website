@@ -7,7 +7,7 @@
 }
 
 .about-me .wrap-about {
-	margin: 80px 0px;
+	margin: 110px 15px 50px 40px;
 	width: 70%;
 	padding: 5px;
 	border: 2px solid #FFF;
@@ -71,7 +71,7 @@
   }
 
   .about-me .wrap-about {
-  	width: 80%;
+  	width: 60%;
   }
 
   .about-me .wrap-about .wrap-content {
@@ -88,9 +88,9 @@
   }
 
   .about-me .wrap-about .avt {
-  	width: 180px;
-	height: 180px;
-	left: -80px;
+  	width: 200px;
+	height: 200px;
+	left: -95px;
   }
 }
 
