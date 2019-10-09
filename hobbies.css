@@ -17,7 +17,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px 10px;
+	padding: 10px;
 	flex-wrap: wrap;
 
 }
@@ -29,20 +29,20 @@
 	background-color: #092049;
 	border-radius: 15px;
 	margin-top: 10px;
-	padding: 10px;
+	padding: 5px;
 }
 
 .hobbies .hobbies-container .component .images {
-	max-width: 100px;
-	height: 100px;
-	margin-right: 15px;
+	max-width: 110px;
+	height: 110px;
+	margin-right: 5px;
 	border-radius: 15px;
 	background-color: #DDD;
 }
 
 .hobbies .hobbies-container .component .images img {
-	width: 100px;
-	height: 100px;
+	width: 110px;
+	height: 110px;
 	object-fit: cover;
 	border-radius: 15px;
 	border: 2px solid #FFF;
@@ -52,7 +52,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100px;
+	height: 110px;
 }
 
 .hobbies-container .component .hobby-content .hobby-title {
@@ -65,7 +65,7 @@
 }
 
 .hobbies-container .component .hobby-content .detail-content {
-	max-width: 150px;
+	max-width: 200px;
   	flex-grow:1;
   	overflow-y: scroll;
   	overflow-x: hidden;
@@ -73,7 +73,7 @@
 
 .component .hobby-content .detail-content > p {
 	line-height: 1.25em;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin: 5px;
 }
 
