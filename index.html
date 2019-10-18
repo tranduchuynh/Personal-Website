@@ -1,202 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00">
     <meta name="description" content="Personal Website">
     <meta name="author" content="HuynhTran">
     <title>HuynhTrần</title>
-  	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  	<link rel="stylesheet" type="text/css" href="style.css">
-  	<link rel="stylesheet" type="text/css" href="header.css">
-  	<link rel="stylesheet" type="text/css" href="home.css">
-  	<link rel="stylesheet" type="text/css" href="about.css">
-  	<link rel="stylesheet" type="text/css" href="hobbies.css">
-  	<link rel="stylesheet" type="text/css" href="footer.css">
-  	<link rel="icon" href="./images/favicon.ico" type= "image/x-icon" />
-	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-</head>
-	<style type="text/css">
-	::-webkit-scrollbar {width: 9px; height: 4px; background: #142f60; -webkit-border-radius: 1ex}
-	::-webkit-scrollbar-thumb { background-color: #FFF; -webkit-border-radius: 1ex}
-	</style>
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="hobbies.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="icon" href="./images/favicon.ico" type= "image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <style type="text/css">
+      ::-webkit-scrollbar {width: 7px; height: 4px; background: #142f60; -webkit-border-radius: 1ex}
+      ::-webkit-scrollbar-thumb { background-color: #FFF; -webkit-border-radius: 1ex}
+    </style>
+</head> 
 <body>
-	<div class="container">
-		<div id="my-header" class="header">
-			<div class="logo">
-				<a href="#home">HuynhTrần</a>
-			</div>
-			<div class="menu-desktop">
-				<ul>
-					<li class="link-btn">
-						<a href="#home">Home</a>
-					</li>
-					<li class="link-btn">
-						<a href="#about">About me</a>
-					</li>
-					<li class="link-btn">
-						<a href="#hobbies">Hobbies</a>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-icon">
-			 	<i id="drop-btn" class="fa fa-bars fa-2x"></i>
-			 	<div id="drop-content" class="drop-menu">
-			 		<a href="#home">Home</a>
-			 		<a href="#about">About me</a>
-			 		<a href="#hobbies">Hobbies</a>
-			 	</div>
-			</div>
-		</div>
+  <div class="container">
+    <div id="my-header" class="header">
+      <div class="logo">
+        <a href="#home">HuynhTrần</a>
+      </div>
+      <div class="menu-desktop">
+        <ul>
+          <li class="link-btn">
+            <a class="link-active" href="#home">Home</a>
+          </li>
+          <li class="link-btn">
+            <a  class="link-active" href="#about">About me</a>
+          </li>
+          <li class="link-btn">
+            <a class="link-active" href="#hobbies">Hobbies</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-icon">
+        <i id="drop-btn" class="fa fa-bars fa-2x"></i>
+        <div id="drop-content" class="drop-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About me</a>
+          <a href="#hobbies">Hobbies</a>
+        </div>
+      </div>
+    </div>
 
-		<div id="home" class="home">
-			<div class="overlay">
-				<div class="hello">Xin chào!</div>
-			<div class="intro">Mình là Huynh Trần</div>
-			<div class="fb-btn">
-				<a href="https://www.facebook.com/profile.php?id=100009297396372" target="_blank">Add me on <i class="fab fa-facebook-square"></i></a>
-			</div>
-			</div>
-		</div>
+    <div id="home" class="home">
+      <div class="overlay">
+        <div class="hello">Xin chào!</div>
+      <div class="intro">Mình là Huynh Trần</div>
+      <div class="fb-btn">
+        <a href="https://www.facebook.com/profile.php?id=100009297396372" target="_blank">Add me on <i class="fab fa-facebook-square"></i></a>
+      </div>
+      </div>
+    </div>
 
-		<div class="about-me" id="about">
-			<div class="wrap-about">
-				<div class="avt">
-					<div class="overlay">
-						
-					</div>
-				</div>
-				
-				<div class="about">
-					<div class="title">
-						<h1>About me</h1>
-					</div>
-					<div class="wrap-content">
-						<div class="content">
-							<p>Tên đầy đủ của mình là <strong>Trần Đức Huynh</strong>. Hiện tại mình đang là sinh viên của trường đại học Kinh doanh và công nghệ Hà Nội (HUBT).</p>
-							<p>Nếu sau này có một bộ phim kể về cuộc đời mình. Tên bộ phim sẽ là.... Đố các bạn tên bộ phim sẽ là gì?</p>
-							<p>Ước mơ của mình là trở thành một <i>Web Developer Fullstack</i> trong tương lai và có một gia đình nhỏ cho riêng mình. Mình sẽ luôn cố gắng để thực hiện được ước mơ đó. Và mình cũng xin cảm ơn các bạn đã ghé thăm trang web của mình. I love you so much ^^.</p>
-							<p>Câu nói truyền cảm hứng mà mình thích nhất:</p>
-							<blockquote style="line-height: 1.5em">"Stay hungry, stay foolish."<em> - Steve Jobs, CEO — Apple Inc.</em></blockquote>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div id="hobbies" class="hobbies">
-			<div class="title">
-				<h1>My hobbies</h1>
-			</div>
-			<div class="hobbies-container">
-				<div class="component">
-					<div class="images">
-						 <img src="./images/coding.jpg" alt="coding"> 
-					</div>
-					<div class="hobby-content">
-						<span class="hobby-title">
-							<h2>Lập trình</h2>
-						</span>
-						<div class="detail-content">
-							<p>- Thực tế khi đậu đại học, mình chọn ngành cntt bởi vì mình cảm thấy thích máy tính và chơi game cũng không đến nỗi tồi nên mình chọn ngành này. Các bạn cảm thấy mình ngây thơ và ảo tưởng đúng không ^^.<br> - Nhưng đến hiện tại mình xem lập trình là một đam mê. Và dường như mình đã nghiện nó rồi!</p>
-						</div>
-					</div>
-				</div>
-				<div class="component">
-					<div class="images">
-						<img src="./images/book.jpg" alt="book">
-					</div>
-					<div class="hobby-content">
-						<span class="hobby-title">
-							<h2>Đọc sách</h2>
-						</span>
-						<div class="detail-content">
-							<p>
-			                  - Đối với bản thân mình đọc sách là một cách học.<br> Không thể chối cãi những lợi ích mà những quyển sách đem lại cho ta.<br>
-			                  - Cá nhân mình là một người kén chọn sách để đọc nên hiện tại kho sách của mình cũng chẳng quá nhiều. Xin giới thiệu cho các bạn vài quyển đáng đọc:<br>
-			                  + Đắc nhân tâm.<br>
-			                  + Tuổi trẻ đáng giá bao nhiêu.<br>
-			                  + Tony buổi sáng.<br>
-			                  + Nhà giả kim.	  
-			                </p>
-						</div>
-					</div>
-				</div>
-				<div class="component">
-					<div class="images">
-						<img src="./images/study.jpg" alt="study">
-					</div>
-					<div class="hobby-content">
-						<span class="hobby-title">
-							<h2>Tự học</h2>
-						</span>
-						<div class="detail-content">
-							<p>- Lê-Nin có câu "Học, Học nữa, Học mãi".<br>Mình thích học nhưng bản thân mình lại không thích một cách máy móc, rập khuôn.<br>- Mình thích học những môn mang tính logic va tư duy nhiều hơn là những môn triết lí.<br>- Ngay lúc này đây thì mình đang tự học lập trình web.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="component">
-					<div class="images">
-						<img src="./images/excercise.jpg" alt="">
-					</div>
-					<div class="hobby-content">
-						<span class="hobby-title">
-							<h2>Tập thể dục</h2>
-						</span>
-						<div class="detail-content">
-							<p>- Hồi học cấp 3 mình lười tập thể dục lắm, nên sức đề kháng kém, thường xuyên ốm vặt.<br>- Nhưng từ hồi lên đại học mình bắt đầu tập thể dục và mình thật ngạc nhiên về lợi ích của nó đem lại, mình trở nên khoẻ mạnh và ít ốm vặt hơn, không còn tình trạng leo lên cầu thang mà thở phì phò nữa.<br>- Cho đến bây giờ, các bạn biết đấy tập thể dục đã là thói quen và là sở thích của mình rồi.</p>
-						</div>
-					</div>
-				</div>
-				<div class="component">
-					<div class="images">
-						<img src="./images/movie.jpg" alt="">
-					</div>
-					<div class="hobby-content">
-						<span class="hobby-title">
-							<h2>Xem phim</h2>
-						</span>
-						<div class="detail-content">
-							 <p>
-			                  - Nhiều người quan niệm xem phim là để xả stress. Nhưng với mình, những bộ phim còn đem lại những bài học và những điều khiến bản thân mình phải suy nghĩ.<br>- Không những thế, nhiều bộ phim đậm chất nhân văn và là một niềm động lực lớn cho nhiều người.<br>- Dưới đây là những bộ phim mà mình ấn tượng nhất.<br> 
-			                  + The pursuit of happiness. <br>
-			                  + Life of Pi <br>  
-			                  + The secret life of Walter Mitty. <br> 
-			                  + The water diviner. <br> 		 
-			                  + Up, Finding Nemo, Frozen,... <br>
-			                </p>
-						</div>
-					</div>
-				</div>
-				<div class="component">
-					<div class="images">
-						<img src="./images/music.jpg" alt="">
-					</div>
-					<div class="hobby-content">
-						<span class="hobby-title">
-							<h2>Nghe nhạc</h2>
-						</span>
-						<div class="detail-content">
-							<p>
-			                  - Âm nhạc khiến cho chúng ta thoải mái và được chìm đắm trong nó. Đâu phải tự nhiên những bà mẹ lại hát ru cho con mình ngủ yên đúng không nào? <br>- Thời đại nào cũng vậy, âm nhạc luôn khiến ta feel, ta chill, giúp tâm hồn bay bổng, giúp bản thân quẩy, đôi khi cũng giúp ta sống chậm lại, giúp ta thấu hiểu. <br>- Những bài hát còn có thể truyền tải thông điệp mà chỉ những ai trong hoàn cảnh mới có thể hiểu được.
-			                </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> 
+    <div class="about-me" id="about">
+      <div class="wrap-about">
+        <div class="avt">
+          <div class="overlay">
+            
+          </div>
+        </div>
+        
+        <div class="about">
+          <div class="title">
+            <h1>About me</h1>
+          </div>
+          <div class="wrap-content">
+            <div class="content">
+              <p>Tên đầy đủ của mình là <strong>Trần Đức Huynh</strong>. Hiện tại mình đang là sinh viên của trường đại học Kinh doanh và công nghệ Hà Nội (HUBT).</p>
+              <p>Nếu sau này có một bộ phim kể về cuộc đời mình. Tên bộ phim sẽ là.... Đố các bạn tên bộ phim sẽ là gì?</p>
+              <p>Ước mơ của mình là trở thành một <i>Web Developer Fullstack</i> trong tương lai và có một gia đình nhỏ cho riêng mình. Mình sẽ luôn cố gắng để thực hiện được ước mơ đó. Và mình cũng xin cảm ơn các bạn đã ghé thăm trang web của mình. I love you so much ^^.</p>
+              <p>Câu nói truyền cảm hứng mà mình thích nhất:</p>
+              <blockquote style="line-height: 1.5em">"Stay hungry, stay foolish."<em> - Steve Jobs, CEO — Apple Inc.</em></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="hobbies" class="hobbies">
+      <div class="title">
+        <h1>My hobbies</h1>
+      </div>
+      <div id="unSeeMore0" style="width: 100%">
+         <div id="see-more0" class="see-more" >
+          <div class="see-more_content">
+            <div class="image-content">
+                <img src="./images/coding.jpg" alt="coding">
+            </div>
+            <h2>Lập trình</h2> 
+            <p>- Thực tế khi đậu đại học, mình chọn ngành cntt bởi vì mình cảm thấy thích máy tính và chơi game cũng không đến nỗi tồi nên mình chọn ngành này. Các bạn cảm thấy mình ngây thơ và ảo tưởng đúng không ^^.<br> - Nhưng đến hiện tại mình xem lập trình là một đam mê. Và dường như mình đã nghiện nó rồi!</p>
+            <span>--Nhấn bất kì nơi nào để thoát--</span> 
+          </div>
+        </div>
+      </div>
+      <div id="unSeeMore1" style="width: 100%">
+         <div id="see-more1" class="see-more" >
+          <div class="see-more_content">
+            <div class="image-content">
+                <img src="./images/book.jpg" alt="book">
+            </div>
+            <h2>Đọc sách</h2> 
+            <p>
+              - Đối với bản thân mình đọc sách là một cách học.<br> Không thể chối cãi những lợi ích mà những quyển sách đem lại cho ta.<br>
+              - Cá nhân mình là một người kén chọn sách để đọc nên hiện tại kho sách của mình cũng chẳng quá nhiều. Xin giới thiệu cho các bạn vài quyển đáng đọc:<br>
+              + Đắc nhân tâm.<br>
+              + Tuổi trẻ đáng giá bao nhiêu.<br>
+              + Tony buổi sáng.<br> 
+            </p>
+            <span>--Nhấn bất kì nơi nào để thoát--</span> 
+          </div>
+        </div>
+      </div>
+      <div id="unSeeMore2" style="width: 100%">
+        <div id="see-more2" class="see-more" >
+          <div class="see-more_content">
+            <div class="image-content">
+                <img src="./images/study.jpg" alt="study">
+            </div>
+            <h2>Tự học</h2> 
+            <p>- Lê-Nin có câu "Học, Học nữa, Học mãi".<br>- Mình thích học nhưng bản thân mình lại không thích học một cách máy móc, rập khuôn.<br>- Mình thích học những môn mang tính logic và tư duy nhiều hơn là những môn triết lí.<br>- Ngay lúc này đây thì mình đang tự học lập trình web.
+            </p>
+            <span>--Nhấn bất kì nơi nào để thoát--</span> 
+          </div>
+        </div>
+      </div>
+      <div id="unSeeMore3" style="width: 100%">
+        <div id="see-more3" class="see-more" >
+          <div class="see-more_content">
+            <div class="image-content">
+                <img src="./images/excercise.jpg" alt="excercise">
+            </div>
+            <h2>Tập thể dục</h2> 
+            <p>- Hồi học cấp 3 mình lười tập thể dục lắm, nên sức đề kháng kém, thường xuyên ốm vặt.<br>- Nhưng từ hồi lên đại học mình bắt đầu tập thể dục và mình thật ngạc nhiên về lợi ích của nó đem lại, mình trở nên khoẻ mạnh và ít ốm vặt hơn, không còn tình trạng leo lên cầu thang mà thở phì phò nữa.<br>- Cho đến bây giờ, tập thể dục đã là thói quen và sở thích của mình.</p>
+            <span>--Nhấn bất kì nơi nào để thoát--</span> 
+          </div>
+        </div>
+      </div>
+      <div id="unSeeMore4" style="width: 100%">
+        <div id="see-more4" class="see-more" >
+          <div class="see-more_content">
+            <div class="image-content">
+                 <img src="./images/movie.jpg" alt="movie">
+            </div>
+            <h2>Xem phim</h2> 
+            <p>
+                - Nhiều người quan niệm xem phim là để xả stress. Nhưng với mình, những bộ phim còn đem lại nhiều bài học và những điều khiến bản thân mình phải suy nghĩ.<br>- Không những thế, nhiều bộ phim đậm chất nhân văn, một niềm động lực lớn cho nhiều người.<br>- Dưới đây là những bộ phim mà mình ấn tượng nhất.<br> 
+                + The pursuit of happiness. <br>
+                + Life of Pi <br>  
+                + The water diviner. <br>      
+            </p>
+            <span>--Nhấn bất kì nơi nào để thoát--</span> 
+          </div>
+        </div>
+      </div>
+      <div id="unSeeMore5" style="width: 100%">
+        <div id="see-more5" class="see-more" >
+          <div class="see-more_content">
+            <div class="image-content">
+                 <img src="./images/music.jpg" alt="music">
+            </div>
+            <h2>Nghe nhạc</h2> 
+            <p>
+                - Âm nhạc khiến cho chúng ta thoải mái và được chìm đắm trong nó.<br>- Thời đại nào cũng vậy, âm nhạc luôn khiến ta feel, ta chill, giúp tâm hồn bay bổng, giúp bản thân quẩy, đôi khi cũng giúp ta sống chậm lại, thấu hiểu. <br>- Những bài hát còn có thể truyền tải thông điệp mà chỉ những ai trong hoàn cảnh mới có thể hiểu được.
+            </p>
+            <span>--Nhấn bất kì nơi nào để thoát--</span> 
+          </div>
+        </div>
+      </div>
+      <div class="hobbies-container">
+        <div class="component">
+          <div class="images">
+             <img src="./images/coding.jpg" alt="coding"> 
+          </div>
+          <div class="hobby-content">
+            <span class="hobby-title">
+              <h2>Lập trình</h2>
+            </span>
+            <div class="detail-content">
+              <p>- Thực tế khi đậu đại học, mình chọn ngành cntt... <button id="btn-seeMore0" class="btn-seeMore">Xem chi tiết</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="images">
+            <img src="./images/book.jpg" alt="book">
+          </div>
+          <div class="hobby-content">
+            <span class="hobby-title">
+              <h2>Đọc sách</h2>
+            </span>
+            <div class="detail-content">
+              <p>
+                  - Đối với bản thân mình đọc sách là một cách học...<button id="btn-seeMore1" class="btn-seeMore">Xem chi tiết</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="images">
+            <img src="./images/study.jpg" alt="study">
+          </div>
+          <div class="hobby-content">
+            <span class="hobby-title">
+              <h2>Tự học</h2>
+            </span>
+            <div class="detail-content">
+              <p>- Lê-Nin có câu "Học, Học nữa, Học mãi"...<button id="btn-seeMore2" class="btn-seeMore">Xem chi tiết</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="images">
+            <img src="./images/excercise.jpg" alt="">
+          </div>
+          <div class="hobby-content">
+            <span class="hobby-title">
+              <h2>Tập thể dục</h2>
+            </span>
+            <div class="detail-content">
+              <p>- Hồi học cấp 3 mình lười tập thể dục lắm...<button id="btn-seeMore3" class="btn-seeMore">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="images">
+            <img src="./images/movie.jpg" alt="">
+          </div>
+          <div class="hobby-content">
+            <span class="hobby-title">
+              <h2>Xem phim</h2>
+            </span>
+            <div class="detail-content">
+               <p>
+                  - Nhiều người quan niệm xem phim là để xả stress...<button id="btn-seeMore4" class="btn-seeMore">Xem chi tiết</button>
+                      </p>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="images">
+            <img src="./images/music.jpg" alt="">
+          </div>
+          <div class="hobby-content">
+            <span class="hobby-title">
+              <h2>Nghe nhạc</h2>
+            </span>
+            <div class="detail-content">
+              <p>
+                - Âm nhạc khiến cho chúng ta thoải mái...<button id="btn-seeMore5" class="btn-seeMore">Xem chi tiết</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
 
-		<div class="footer">
-			<div class="my-name">
-				<span>Huynh Trần</span>
-			</div>
-			<div class="add-me">
-					<a href="https://www.facebook.com/profile.php?id=100009297396372" class="add-fb" target="_blank"><p>Kết bạn với mình trên facebook <i class="fab fa-facebook-f"></i></p></a>
-					<a href="https://github.com/tranduchuynh" class="add-gh" target="_blank"><p>Xem github của mình <i class="fab fa-github"></i></p></a>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="index.js"></script>
+    <div class="footer">
+      <div class="my-name">
+        <span>Huynh Trần</span>
+      </div>
+      <div class="add-me">
+          <a href="https://www.facebook.com/profile.php?id=100009297396372" class="add-fb" target="_blank"><p>Kết bạn với mình trên facebook <i class="fab fa-facebook-f"></i></p></a>
+          <a href="https://github.com/tranduchuynh" class="add-gh" target="_blank"><p>Xem github của mình <i class="fab fa-github"></i></p></a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
